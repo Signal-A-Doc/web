@@ -1,0 +1,80 @@
+{
+    "name": "SignalADoc",
+    "description": "SignalADoc",
+    "authors" : [
+                      {
+			"name" : "Shiv Charan Panjeta",
+			"email" : "shiv@toxsl.com",
+			"homepage" : "http://www.toxsl.com"
+		      }
+    ],
+    "keywords": ["SignalADoc", "appointment", "doctors", "Appoint doctors"],
+    "homepage": "http://localhost/signal-a-doc-yii2-1347/",
+    "type": "project",
+    "license": "BSD-3-Clause",
+    "support": {
+        "issues": "https://github.com/yiisoft/yii2/issues?state=open",
+        "forum": "http://www.yiiframework.com/forum/",
+        "wiki": "http://www.yiiframework.com/wiki/",
+        "irc": "irc://irc.freenode.net/yii",
+        "source": "https://github.com/yiisoft/yii2"
+    },
+   "minimum-stability": "stable",
+    "require": {
+        "php": ">=7.0.0",
+        "yiisoft/yii2": "*",
+        "yiisoft/yii2-bootstrap": "*",
+        "yiisoft/yii2-swiftmailer": "*",
+        "yiisoft/yii2-jui": "*",
+        "yiisoft/yii2-imagine": "*",
+        "yiisoft/yii2-authclient": "*",
+	"2amigos/yii2-ckeditor-widget" : "*",
+        "miloschuman/yii2-highcharts-widget": "*",
+	"sunhater/kcfinder":"dev-master",
+	"iutbay/yii2-kcfinder" : "dev-master",
+	"iutbay/yii2-fontawesome" : "dev-master",
+	"himiklab/yii2-sortable-grid-view-widget": "*",
+	"bryglen/yii2-apns-gcm": "*",
+        "phpoffice/phpspreadsheet": "*",
+        "guzzlehttp/guzzle": ">=4.1.4 <7.0",
+        "stripe/stripe-php": "^6.30",
+        "opentok/opentok": "4.2.x",
+        "league/omnipay": "^3.0",
+        "omnipay/paypal": "^3.0",
+        "alexantr/yii2-elfinder": "^1.5",
+        "kartik-v/yii2-widget-datepicker": "dev-master",
+        "yii2tech/html2pdf": "^1.0",
+        "phpseclib/mcrypt_compat": "^1.0",
+        "mpdf/mpdf": "@dev",
+        "lajax/yii2-language-picker": "^1.2",
+        "twilio/sdk": "^5.31",
+        "alexantr/yii2-ckeditor" : "^2.1@dev",
+        "kartik-v/yii2-widget-select2": "^2.1",
+        "yiisoft/yii2-bootstrap4": "~2.0.6",
+        "kartik-v/yii2-widget-depdrop": "^1.0"
+    },
+    "require-dev": {
+        "yiisoft/yii2-debug": "*",
+        "yiisoft/yii2-gii": "*",
+        "yiisoft/yii2-faker": "*",
+        "codeception/base": "^2.2.3",
+        "codeception/verify": "~0.3.1",
+        "codeception/specify": "~0.4.3"
+    },
+    "config": {
+        "process-timeout": 1800,
+        "fxp-asset": {
+            "enabled": false
+        },
+        "github-oauth": {
+            "github.com": "87a605d0a6a42837d6c3466b0a32227e5d57ce13"
+      }
+    },
+  
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://asset-packagist.org"
+    }
+    ]
+}
