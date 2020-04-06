@@ -1,0 +1,217 @@
+/**********table of content************/
+
+
+/***********************************
+
+1. common css
+2. header
+3. body content
+4. forms
+5. footer
+
+/**********************************/
+
+
+/********************common**********/
+
+body,
+.theme-logo-bg {
+	color: #000;
+	background: #fff;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+}
+
+html,
+body {
+	height: 100%;
+}
+
+.main_wrapper {
+	margin-bottom: 0;
+	flex: 1 0 auto;
+}
+
+
+/***********theme color***********/
+
+.theme-info header .navbar.navbar-inverse {
+	background: #00abe7;
+}
+
+.theme-success header .navbar.navbar-inverse {
+	background: #00A65A;
+}
+
+.theme-success header .navbar.navbar-inverse .navbar-header .navbar-brand {
+	height: auto;
+	padding: 5px;
+}
+
+.theme-success header .navbar.navbar-inverse .navbar-header .navbar-brand .brand-name {
+	display: inline-block;
+	width: 100%;
+}
+
+.theme-success header .navbar.navbar-inverse .navbar-header .navbar-brand .brand-name img {
+	max-height: 60px;
+	filter: brightness(0) invert(1);
+}
+
+.theme-danger header .navbar.navbar-inverse {
+	background: #e9422e;
+}
+
+.theme-warning header .navbar.navbar-inverse {
+	background: #fac552;
+}
+
+.theme-sea-green header .navbar.navbar-inverse {
+	background: #01a4a4;
+}
+
+.theme-purple header .navbar.navbar-inverse {
+	background: #9c78cd;
+}
+
+.theme-primary header .navbar.navbar-inverse {
+	background: #00abe7;
+}
+
+
+/*
+html body .bg-blue, html body .info-number .bg-blue {
+color: #fff;
+background-color: #1CA0F2;
+}
+
+html body .bg-success, html body .info-number .bg-success {
+color: #fff;
+background-color: #53d192;
+}
+
+html body .bg-warning, html body .info-number .bg-warning {
+color: #fff;
+background-color: #F7941D;
+}
+html body .bg-voilet, html body .info-number .bg-voilet {
+color: #fff;
+background-color: #652c90;
+}
+html body .bg-danger, html body .info-number .bg-danger {
+color: #fff;
+background-color: #652c90;
+}
+html body .bg-dark, html body .info-number .bg-dark {
+color: #fff;
+background-color: #2b2b2c;
+}
+*/
+
+.navbar-inverse .navbar-brand {
+	color: #fff;
+}
+
+.theme-info header .navbar.navbar-inverse {
+	background: #00abe7;
+}
+
+.theme-success header .navbar.navbar-inverse {
+	background: rgba(4, 141, 205) linear-gradient(to right, #048dcd 0%, #60ccff 100%) repeat scroll 0 0;
+}
+
+.theme-danger header .navbar.navbar-inverse {
+	background: #e9422e;
+}
+
+.theme-warning header .navbar.navbar-inverse {
+	background: #fac552;
+}
+
+.theme-sea-green header .navbar.navbar-inverse {
+	background: #01a4a4;
+}
+
+.theme-purple header .navbar.navbar-inverse {
+	background: #9c78cd;
+}
+
+.theme-primary header .navbar.navbar-inverse {
+	background: #00abe7;
+}
+
+
+/***********header**************/
+
+.nav-wrapper .navbar {
+	border-radius: 0;
+	border: none;
+	margin-bottom: 0;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+	color: #fff;
+}
+
+.navbar-nav > li > a {
+	padding-top: 25px;
+	padding-bottom: 15px;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover,
+.navbar-inverse .navbar-nav > li > a:focus {
+	color: #fff;
+	background-color: rgba(255, 255, 255, 0.2);
+}
+
+
+/************footer***********/
+
+footer {
+	background: #000;
+	padding: 13px 0;
+}
+
+footer p {
+	color: #fff;
+}
+
+.form-control {
+	height: 45px;
+	border: 1px solid #d8d4d4;
+	box-shadow: none;
+	border-radius: 30px;
+}
+
+.form-control-feedback {
+	top: 3px;
+	border-left: 1px solid #ddd;
+	color: #0b92d1;
+}
+
+.login-form {
+	margin-top: 20px;
+}
+
+.main_wrapper {
+	background: url(../img/slider-2.jpg);
+	background-size: cover;
+	background-position: 100%;
+}
+
+.main-content {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.btn.btn-success {
+	background: rgba(4, 141, 205) linear-gradient(to right, #048dcd 0%, #60ccff 100%) repeat scroll 0 0;
+	border-radius: 24px;
+	border: 1px solid #0b92d1;
+	padding: 8px 26px;
+}
